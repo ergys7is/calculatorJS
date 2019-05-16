@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Calculator</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="calculator.css">
+  <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>	
+</head>
+<body>
+
+<div id="calculator">
+
+	
+	<input type="text" class="screen" value = "" disabled/><br>
+	
+	<div class="keys">
+
+		<button type="button" id = "clearEntry" class = "clearEntry" value="clearEntry">CE</button>
+		<button type="button" id="allClear" class = "allClear" value="allClear" action="clear">AC</button>
+		<button type="button" class = "operator" value="=">&equals;</button><br>
+		<button type="button" class = "numbers" value='7'>7</button>
+		<button type="button" class = "numbers" value='8'>8</button>
+		<button type="button" class = "numbers" value='9'>9</button>
+		<button type="button" class = "operator" value="/">&divide;</button><br>
+		<button type="button" class = "numbers" value='4'>4</button>
+		<button type="button" class = "numbers" value='5'>5</button>
+		<button type="button" class = "numbers" value='6'>6</button>
+		<button type="button" class = "operator" value="*">&times;</button><br>
+		<button type="button" class = "numbers" value='1'>1</button>
+		<button type="button" class = "numbers" value='2'>2</button>
+		<button type="button" class = "numbers" value='3'>3</button>
+		<button type="button" class = "operator" value="-">&minus;</button><br>
+		<button type="button" class = "plusMinus" value="plMin">&plusmn;</button>
+		<button type="button" class = "numbers" value='0'>0</button>
+		<button type="button" class = "dot" value=".">.</button>
+		<button type="button" class = "operator" value="+">&plus;</button>
+
+	</div>
+</div>
+	<script src="calculator.js"></script>
+</body>
+</html>

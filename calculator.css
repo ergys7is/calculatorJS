@@ -1,0 +1,95 @@
+* {
+  font-family:'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-size: 4vw;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height:100%;
+  background: radial-gradient(circle,#fff,#ddd);
+  background-size: cover;
+}
+
+#calculator {
+  width: 12em;
+  height: 12em;
+  margin: 1em auto;
+  top: 50%;
+  left: 50%;
+  width: 510px;
+  height: 370px;
+}
+
+.screen {
+  width: 55%;
+  text-align: right;
+}
+
+button {
+  background-color: grey;
+  border-radius: 4px;
+  width: 2em;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.keys {
+background-size: 5px;
+color: grey;
+border-right: 0;
+}
+
+.keys .numbers:hover {
+background: blue;
+}
+
+.keys .equals:hover {
+background: green;
+}
+
+.keys .operator:hover {
+background: purple;
+}
+
+.keys .dot:hover {
+background: yellow;
+}
+
+.keys .plusMinus:hover {
+background: yellow;
+}
+
+.keys .allClear {
+font-weight: bold;
+}
+
+.keys .allClear:hover {
+background: red;
+}
+
+.keys .allClear {
+background-color: pink;
+color: white;
+width: 3.26em;
+}
+
+.keys .clearEntry {
+font-weight: bold;
+}
+
+.keys .clearEntry:hover {
+background: red;
+}
+
+.keys .clearEntry {
+background-color: pink;
+color: white;
+width: 3.26em;
+}
